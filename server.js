@@ -78,7 +78,7 @@ async function CheckDiff() {
     }
 }
 
-const checkDiffWithInterval = setInterval(CheckDiff, 12 * 1000 * 60 * 60);
+const checkDiffWithInterval = setInterval(CheckDiff, 1000 * 60 * 60);
 
 app.listen(PORT, async () => {
     checkDiffWithInterval;
